@@ -94,11 +94,19 @@ namespace WindowsFormsApplication1
 
         private void runPacManButton_Click(object sender, EventArgs e)
         {
+            Graphics formGraphics = this.CreateGraphics(); //Allow fo graphics to be created
+            SolidBrush whiteBrush = new SolidBrush(Color.White); //Create a white brush
+            SolidBrush redBrush = new SolidBrush(Color.Red); //create a red brush
+            Font BigFont = new Font("Times New Roman", 90, FontStyle.Bold); //create a font to use in the code
+            Font MediumFont = new Font("Courier", 20, FontStyle.Bold); //create a second font to use int eh code
+            Font SmallFont = new Font("Courier", 5, FontStyle.Bold); //create a third font to use in the code
+            Pen bluePen = new Pen(Color.Blue, 5);
 
-
-
-
-
+            PacManButton.Visible = false;
+            formGraphics.DrawLine(bluePen, 0, 50, 230, 50);
+            formGraphics.DrawLine(bluePen, 0, 100, 180, 100);
+            formGraphics.DrawLine(bluePen, 230, 50, 230, 250);
+            formGraphics.DrawLine(bluePen, 0, 50, 230, 50);
         }
     }
 }
