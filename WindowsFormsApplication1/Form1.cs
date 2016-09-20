@@ -95,7 +95,7 @@ namespace WindowsFormsApplication1
         private void runPacManButton_Click(object sender, EventArgs e)
         {
             Graphics formGraphics = this.CreateGraphics(); //Allow fo graphics to be created
-            SolidBrush whiteBrush = new SolidBrush(Color.White); //Create a white brush
+            SolidBrush yellowBrush = new SolidBrush(Color.Yellow); //Create a white brush
             SolidBrush redBrush = new SolidBrush(Color.Red); //create a red brush
             Font BigFont = new Font("Times New Roman", 90, FontStyle.Bold); //create a font to use in the code
             Font MediumFont = new Font("Courier", 20, FontStyle.Bold); //create a second font to use int eh code
@@ -103,10 +103,23 @@ namespace WindowsFormsApplication1
             Pen bluePen = new Pen(Color.Blue, 5);
 
             PacManButton.Visible = false;
-            formGraphics.DrawLine(bluePen, 0, 50, 230, 50);
-            formGraphics.DrawLine(bluePen, 0, 100, 180, 100);
-            formGraphics.DrawLine(bluePen, 230, 50, 230, 250);
-            formGraphics.DrawLine(bluePen, 0, 50, 230, 50);
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            formGraphics.FillPie(yellowBrush, 0, 30, 65, 65, 25, 300);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 5, 30, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
         }
     }
 }
