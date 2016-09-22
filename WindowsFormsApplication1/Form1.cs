@@ -102,6 +102,7 @@ namespace WindowsFormsApplication1
             Font SmallFont = new Font("Courier", 5, FontStyle.Bold); //create a third font to use in the code
             Pen bluePen = new Pen(Color.Blue, 5);
 
+            //make the button go away and create the borders
             PacManButton.Visible = false;
             formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
             formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
@@ -111,15 +112,464 @@ namespace WindowsFormsApplication1
             formGraphics.FillPie(yellowBrush, 0, 30, 65, 65, 25, 300);
             Thread.Sleep(200);
 
-            formGraphics.Clear(Color.Black);
+            
+            formGraphics.Clear(Color.Black); //clear screen
 
             formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
             formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
             formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
             formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
-            formGraphics.FillPie(yellowBrush, 5, 30, 65, 65, 25, 360);
+            formGraphics.FillPie(yellowBrush, 20, 30, 65, 65, 25, 360);
             Thread.Sleep(200);
 
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            formGraphics.FillPie(yellowBrush, 20, 30, 65, 65, 25, 300);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 40, 30, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            formGraphics.FillPie(yellowBrush, 40, 30, 65, 65, 25, 300);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 60, 30, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            formGraphics.FillPie(yellowBrush, 60, 30, 65, 65, 25, 300);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 80, 30, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            formGraphics.FillPie(yellowBrush, 80, 30, 65, 65, 25, 300);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 100, 30, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            formGraphics.FillPie(yellowBrush, 100, 30, 65, 65, 25, 300);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 120, 30, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            formGraphics.FillPie(yellowBrush, 120, 30, 65, 65, 25, 300);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 140, 30, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            formGraphics.FillPie(yellowBrush, 140, 30, 65, 65, 25, 300);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders, close mouth, and move forward
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 30, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 30, 65, 65, 25, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 50, 65, 65, 25, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 50, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 70, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 70, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 90, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 90, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 110, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 110, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 130, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 130, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 150, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 150, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 170, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 170, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 190, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 190, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 210, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 210, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 230, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 230, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 250, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 250, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 270, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 270, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black);
+
+            //create the borders, close mouth, and move down
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+            formGraphics.FillPie(yellowBrush, 160, 290, 65, 65, 120, 360);
+            Thread.Sleep(200);
+
+            formGraphics.Clear(Color.Black); //clear screen
+
+            //create the borders
+            formGraphics.DrawLine(bluePen, 0, 20, 230, 20);
+            formGraphics.DrawLine(bluePen, 0, 100, 150, 100);
+            formGraphics.DrawLine(bluePen, 230, 20, 230, 250);
+            formGraphics.DrawLine(bluePen, 150, 100, 150, 250);
+
+            //open the pacman mouth
+            formGraphics.FillPie(yellowBrush, 160, 290, 65, 65, 120, 300);
+
+            Thread.Sleep(200);
+
+            formGraphics.DrawString("Conrtulatonz", MediumFont, yellowBrush, 50, 40);
         }
     }
 }
