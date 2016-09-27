@@ -50,7 +50,7 @@ namespace WindowsFormsApplication1
             
             playButton.Visible = false; //hide the button after clicked
             
-            /*
+            
             countdowText.Text = "Game Will Start in: 3"; //change the countdown text to "Game Will Start in 3"
             three.Play(); //play the sound file three
             Refresh();
@@ -65,13 +65,13 @@ namespace WindowsFormsApplication1
             one.Play(); //play the sound file one
             Refresh();
             Thread.Sleep(1000); //pause for 1 second
-            */
+            
             BackColor = Color.Green; //change window background colour to green
             //countdowText.Text = ""; //change the countdown text to "go"
             countdowText.Visible = false;
             Refresh();
 
-            /*formGraphics.FillEllipse(redBrush, 65, 70, 160, 110); //make the oval
+            formGraphics.FillEllipse(redBrush, 65, 70, 160, 110); //make the oval
             formGraphics.DrawString("C", BigFont, whiteBrush, 55, 55); //write the large 'c'
 
             formGraphics.DrawString("RAMS", MediumFont, whiteBrush, 115, 110); //write the medium sized font 'RAMS'
@@ -81,16 +81,16 @@ namespace WindowsFormsApplication1
             formGraphics.DrawString("Central Rams Arcade", SmallFont, whiteBrush, new Rectangle()); //to write the sideways text
             formGraphics.ResetTransform(); //reset the screen orientaion and start
             Thread.Sleep(1000);
-            */
+            
             BackColor = Color.Black;
             PacManButton.Visible = true;
 
         }
 
-        /*private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
 
-        }*/
+        }
 
         private void runPacManButton_Click(object sender, EventArgs e)
         {
